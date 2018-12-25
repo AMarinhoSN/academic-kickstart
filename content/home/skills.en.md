@@ -2,7 +2,7 @@
 # Feature/Skill widget.
 widget = "featurette"  # Do not modify this line!
 date = 2017-09-20T00:00:00
-
+math = true
 # Activate this widget? true/false
 active = true
 
@@ -13,30 +13,48 @@ subtitle = ""
 weight = 7
 
 # Showcase personal skills or business features.
-# 
+#
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
+#
 # Available icon packs and icons:
 # * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
 # * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
-  icon = "r-project"
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  name = "Python"
+  description = "Pandas | Numpy | scikit-learn"
+
 [[feature]]
-  icon = "chart-line"
+  icon = "code"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+  name = "Other languages"
+  description = "D | R | LaTeX"
+
 [[feature]]
-  icon = "camera-retro"
+  icon = "chart-area"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Data Analyses"
+  description = "Statistics | Data Clustering "  
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux"
+  description = "Intermediate linux user"
+
+[[feature]]
+  icon = "atom"
+  icon_pack = "fas"
+  name = "Biomolecular Physics Simulation"
+  description = " Gromacs | Plummed"
+
+[[feature]]
+  icon = "square-root-alt"
+  icon_pack = "fas"
+  name = "Math"
+  description = " Differential Geometry | Information Theory"
 
 +++

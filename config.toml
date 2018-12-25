@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://amarinhosn.github.io/"
 
 # Title of your site
-title = "Academic"
+title = "AMarinhoSN"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -52,27 +52,27 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Antonio Marinho"
+  role = "Computational Structural Biologist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "CeNT - UW", url = "https://cent.uw.edu.pl/en/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "antonio.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = """
-  Monday 10:00 to 13:00\\
-  Wednesday 09:00 to 10:00\\
-  Otherwise email to book an appointment
-  """
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  email = "a.marinho@cent.uw.edu.pl"
+  address = "Banacha 2C, Centre of New Technologies,  Warszawa, Poland"
+  #office_hours = """
+  #Monday 10:00 to 18:00\\
+  #Wednesday 09:00 to 10:00\\
+  #Otherwise email to book an appointment
+  #"""
+  #phone = "888 888 88 88"
+  #skype = "amdnsk"
+  telegram = "tonhodomar"
   keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
@@ -107,7 +107,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "default"
+  color_theme = "1950s"
   # Enable users to switch between day and night mode?
   day_night = true
 
@@ -122,7 +122,7 @@ enableGitInfo = false
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "@tonhodomar"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -132,7 +132,7 @@ enableGitInfo = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+  time_format = "15:04 PM"
 
   # Show estimated reading time for posts?
   reading_time = true
@@ -145,7 +145,7 @@ enableGitInfo = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -182,7 +182,7 @@ enableGitInfo = false
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = false
+  privacy_pack = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -263,22 +263,27 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:a.marinho@cent.uw.edu.pl"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
+    link = "https://twitter.com/tonhodomar"
 
   [[params.social]]
-    icon = "google-scholar"
+    icon = "researchgate"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://www.researchgate.net/profile/Antonio_Da_Silva_Neto"
+
+    [[params.social]]
+      icon = "orcid"
+      icon_pack = "ai"
+      link = "https://orcid.org/0000-0001-6261-249X"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "https://github.com/AMarinhoSN/"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -295,33 +300,60 @@ enableGitInfo = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
+[[Languages.en.menu.main]]
   name = "Home"
   url = "#about"
   weight = 1
 
-[[menu.main]]
+[[Languages.pt.menu.main]]
+  name = "Inicial"
+  url = "#about"
+  weight = 1
+
+[[Languages.en.menu.main]]
   name = "Publications"
   url = "#publications_selected"
   weight = 2
 
-[[menu.main]]
+[[Languages.pt.menu.main]]
+  name = "Publicações"
+  url = "#publications_selected"
+  weight = 2
+
+
+[[Languages.en.menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
-[[menu.main]]
+[[Languages.pt.menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 3
+
+[[Languages.en.menu.main]]
   name = "Projects"
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 5
+[[Languages.pt.menu.main]]
+  name = "Projetos"
+  url = "#projects"
+  weight = 4
 
-[[menu.main]]
+
+#[[menu.main]]
+#  name = "Tutorials"
+#  url = "/tutorial/"
+#  weight = 5
+
+[[Languages.en.menu.main]]
   name = "Contact"
+  url = "#contact"
+  weight = 6
+
+[[Languages.pt.menu.main]]
+  name = "Contato"
   url = "#contact"
   weight = 6
 
@@ -363,13 +395,13 @@ enableGitInfo = false
   languageCode = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[languages.pt]
+  languageCode = "pt"
+  title = "AMarinhoSN"
+  [languages.pt.params]
+    name = "Antonio Marinho"
+    role = "Pesquisador Assistente"
+  [[languages.pt.menu.main]]
+    name = "Antonio Marinho"
+    url = "#about"
+    weight = 1
