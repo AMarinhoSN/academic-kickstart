@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Differential Geometry", "Protein Dynamics", "Research Software Development"]
+tags = ["differential-geometry", "protein-dynamics", "research-software-development"]
 
 # Project summary to display on homepage.
 summary = "A software package for protein conformation analyses based on differential geometry"
@@ -45,10 +45,10 @@ url_poster = ""
 +++
 ## In a nutshell
 
-FleXgeo is a software package for protein conformational analyses based on a differential geometry(DG) representation of protein backbone. The currently available prototype version was used to compute all results presented at the Marinho et al. 2018 and was written during my PhD by me and PhD. Rinaldo Wander Montalvão. However, there is a lot of rooms for improvement and we plan maintain its development by adding new features and improving performance and usability.
+FleXgeo is a software package for protein conformational analyses based on a differential geometry (DG) representation of protein backbone. The currently available prototype version was used to compute all results presented at the Marinho et al. 2018 and it was written during my PhD by PhD Rinaldo Wander Montalvão and I. However, there is a lot of room for improvement and we plan to maintain its development by adding new features and improving performance and usability.
 
 ## Main Objective
-Make DG-based analyses accessible and easy to use on a structural biology pipeline analyses of the research in the experimental and computational structural biology community.
+Make DG-based analyses accessible and easy to use for the structural biology community.
 
 ## Current stage
 The paper was recently made public and a website dedicated to FleXgeo documentation and tutorials is under development and should be released as soon as possible, meanwhile check [FleXgeo on github](https://github.com/AMarinhoSN/FleXgeo) for more information.

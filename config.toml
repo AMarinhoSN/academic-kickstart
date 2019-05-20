@@ -26,7 +26,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-131383918-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -60,11 +60,11 @@ enableGitInfo = false
   organizations = [ { name = "CeNT - UW", url = "https://cent.uw.edu.pl/en/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "antonio.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "antonio-marinho-computational-protein-structural-biology.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "a.marinho@cent.uw.edu.pl"
-  address = "Banacha 2C, Centre of New Technologies,  Warszawa, Poland"
+  address = "Banacha 2C, Centre of New Technologies, Warsaw, Poland"
   #office_hours = """
   #Monday 10:00 to 18:00\\
   #Wednesday 09:00 to 10:00\\
@@ -107,7 +107,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "1950s"
+  color_theme = 'default'
   # Enable users to switch between day and night mode?
   day_night = true
 
@@ -306,7 +306,7 @@ enableGitInfo = false
   weight = 1
 
 [[Languages.pt.menu.main]]
-  name = "Inicial"
+  name = "Início"
   url = "#about"
   weight = 1
 
@@ -321,15 +321,15 @@ enableGitInfo = false
   weight = 2
 
 
-[[Languages.en.menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[Languages.en.menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
 
-[[Languages.pt.menu.main]]
-  name = "Blog"
-  url = "#posts"
-  weight = 3
+#[[Languages.pt.menu.main]]
+#  name = "Blog"
+#  url = "#posts"
+#  weight = 3
 
 [[Languages.en.menu.main]]
   name = "Projects"
@@ -398,9 +398,12 @@ enableGitInfo = false
 [languages.pt]
   languageCode = "pt"
   title = "AMarinhoSN"
-  [languages.pt.params]
+
+[languages.pt.params]
     name = "Antonio Marinho"
-    role = "Pesquisador Assistente"
+    role = "Bioinformata estrutural"
+    address = "Banacha 2C, Centre of New Technologies, Varsóvia, Polônia"
+
   [[languages.pt.menu.main]]
     name = "Antonio Marinho"
     url = "#about"

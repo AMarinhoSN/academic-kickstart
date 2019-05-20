@@ -25,7 +25,7 @@ weight = 7
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "Pandas | Numpy | scikit-learn"
+  description = "Pandas | Numpy | Scikit-learn"
 
 [[feature]]
   icon = "code"
@@ -36,14 +36,14 @@ weight = 7
 [[feature]]
   icon = "chart-area"
   icon_pack = "fas"
-  name = "Data Analyses"
-  description = "Statistics | Data Clustering "  
+  name = "Data Analysis"
+  description = "Statistics | Clustering | Visualization"  
 
 [[feature]]
   icon = "linux"
   icon_pack = "fab"
   name = "Linux"
-  description = "Intermediate linux user"
+  description = "Intermediate Linux user"
 
 [[feature]]
   icon = "atom"

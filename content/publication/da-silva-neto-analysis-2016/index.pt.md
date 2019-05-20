@@ -9,24 +9,26 @@ publication = "*Biochimie*"
 url_pdf = "https://linkinghub.elsevier.com/retrieve/pii/S030090841600050X"
 doi = "10.1016/j.biochi.2016.02.007"
 categories = ["Artigos Científicos"]
-tags = ["Protein Structural Analyses"]
+tags = ["Análise Estrutural de Proteínas"]
 +++
 
 ---
 
-## In a nutshell
-In this paper we identify two isoforms of uridine phosphorylases (UP) on the *Schistosoma mansoni* genome which share 92% of sequence identity. Despite the high sequence identity, we demonstrate experimentally that one isoform, *smUPa*, is a regular UP while the other, *smUPb*, is not. We also determinate the atomic structure of the *smUPa* (free and bound with different ligands) and  *smUPb* (free) by X-ray diffraction protein crystallography. The structural analyses reveal that a significant part of the isoforms sequence divergence occurs in the vicinity of the active site and one of those changes partially reduces the active site space for ligand binding. RNA expression analyses shows that both isoforms are expressed in different stages of the *Schistosoma mansoni* life cycle suggesting that *smUPb* have a metabolic role which remains a mystery to be solved.
+## Em poucas palavras
+
+Neste trabalho, nós identificamos duas isoformas da Uridina Fosforilase (UP) no genoma do *Schistosoma mansoni* que compartilham 92% de identidade de sequência. Apesar da alta identidade compartilhada, nós demonstramos experimentalmente que uma das isoformas, *smUPa*, é uma UP comum, enquanto a outra, *smUPb*, não é. Também determinamos a estrutura atômica da *smUPa* (livre e ligada a diferentes moléculas) e da *smUPb* (livre) por Cristalografia por Difração de Raios X. A análise estrutural revelou que uma parte significativa das divergências na sequência entre as isoformas ocorre próximas ao sítio ativo e uma delas reduz parcialmente o espaço disponível para acomodar ligantes. A análise de expressão de RNA mostra que ambas as isoformas são expressas em diferentes estágios do ciclo de vida do *Schistosoma mansoni*, o que sugere que a *smUPb* possui algum papel no metabolismo, apesar de ainda desconhecido.
 
 ---
 
-## Implications ##
-This findings are interesting for:
+## E serve para que?
 
-  * The *Schistosoma mansoni* nucleic acids metabolism
-    * what the *smUPb* does and what is its metabolic role on the parasite life cycle?
-  * The drug discovery
-    * this enzyme is different for the human counterparts and is important for parasyte metabolis, therefore is a potential therapeutic target for drug discovery projects
-  * protein sequence-structure relationship
-    * this UP isoforms compose a curious and unlikely case in which two proteins have 92% of sequence identity but different biochemical functions  
+Os achados são interessantes para:
+
+  * **O metabolismo de nucleotídeos do *Schistosoma mansoni***
+    * O que a *smUPb* faz e qual o seu papel metabólico no ciclo de vida do parasita?
+  * **Projetos de desenvolvimento de drogas.**
+    * A *smUPb* é diferente das UPs humanas e é importante para o metabolismo do parasita, portanto, é um potencial alvo terapêutico para projetos de desenvolvimento de drogas;
+  * **Relacionamento entre sequência e estrutura de proteínas.**
+    * Esse caso de duas isoformas de UP compõe um caso improvável no qual duas proteínas possuem 92% de identidade, mas funções bioquímica diferentes.
 
 ---

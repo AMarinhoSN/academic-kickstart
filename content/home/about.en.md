@@ -18,12 +18,12 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Applied Physics"
-  institution = "Universidade de Sao Paulo"
+  institution = "Universidade de São Paulo"
   year = 2017
 
 [[education.courses]]
   course = "MsC in Applied Physics"
-  institution = "Universidade de Sao Paulo"
+  institution = "Universidade de São Paulo"
   year = 2013
 
 [[education.courses]]
@@ -33,6 +33,6 @@ weight = 5
 
 +++
 
-# Biography
+# Hi,
 
-Antonio Marinho is a postdoctoral research assistant at [Laboratory of Structural Bioinformatics](https://lbs.cent.uw.edu.pl/), [CeNT-UW](https://cent.uw.edu.pl/en/). His main research interest is to explore new mathematical and computational methods to solve biomedical and biotechnological challenges (check the project tab). He is also the host of [PODEntender](podentender.com), a science popularization podcast.
+I am a postdoctoral research assistant at [Laboratory of Structural Bioinformatics](https://lbs.cent.uw.edu.pl/), [CeNT-UW](https://cent.uw.edu.pl/en/) and my main research interest is to explore new mathematical and computational methods to solve biomedical and biotechnological challenges (check [my projects](#projects)). Also, I believe science should be accessible to everyone and that's why I am part of  [PODEntender](https://podentender.com/), a science popularization podcast.

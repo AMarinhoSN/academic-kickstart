@@ -37,24 +37,24 @@ date_format = "January 2006"
   """
 
 [[experience]]
-  title = "PhD. Student"
+  title = "PhD Student"
   company = "Insituto de Física de São Carlos, USP"
   company_url = "https://www2.ifsc.usp.br/portal-ifsc/"
   location = "São Carlos, SP, Brazil"
   date_start = "2013-08-01"
   date_end = "2017-12-15"
   description = """
-  Explore differential geometry and information theory as a mathematical representation for protein dynamics analyses.
+  Explore differential geometry and information theory as a mathematical representation for protein dynamics analyses
   """
 
 [[experience]]
-  title = "MsC. Student"
+  title = "MsC Student"
   company = "Insituto de Física de São Carlos, USP"
   company_url = "https://www2.ifsc.usp.br/portal-ifsc/"
   location = "São Carlos, SP, Brazil"
   date_start = "2011-08-01"
   date_end = "2013-07-31"
-  description = """Protein expression, Crystallography and Structure determination by X-ray diffraction."""
+  description = """Protein expression, Crystallography and Structure determination by X-ray diffraction"""
 
 [[experience]]
   title = "Scientfic Initiation Student"
@@ -63,6 +63,6 @@ date_format = "January 2006"
   location = "Recife, PE, Brazil"
   date_start = "2011-08-01"
   date_end = "2013-07-31"
-  description = """Protein modelling and molecular dynamics simulation."""
+  description = """Protein modelling and molecular dynamics simulation"""
 
 +++

@@ -25,25 +25,25 @@ weight = 7
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "Pandas | Numpy | scikit-learn"
+  description = "pandas | numpy | scikit-learn"
 
 [[feature]]
   icon = "code"
   icon_pack = "fas"
-  name = "Other languages"
+  name = "Outras linguagens"
   description = "D | R | LaTeX"
 
 [[feature]]
   icon = "chart-area"
   icon_pack = "fas"
   name = "Análise de dados"
-  description = "Análise estatística | Data Clustering "  
+  description = "Estatística | Agrupamento | Visualização"  
 
 [[feature]]
   icon = "linux"
   icon_pack = "fab"
   name = "Linux"
-  description = "Usuário linux intermediário"
+  description = "Usuário Linux intermediário"
 
 [[feature]]
   icon = "atom"

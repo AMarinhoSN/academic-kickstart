@@ -33,7 +33,7 @@ date_format = "January 2006"
   date_start = "2017-02-15"
   date_end = ""
   description = """
-  Desenvolvimento de novos métodos e algorítmos para desenho de proteínas
+  Desenvolvimento de novos métodos e algoritmos para desenho de proteínas
   """
 
 [[experience]]
@@ -44,7 +44,7 @@ date_format = "January 2006"
   date_start = "2013-08-01"
   date_end = "2017-12-15"
   description = """
-  Desenvolvimento de estratégia de análise de dinâmica de proteínas baseada em geometria diferencial e teoria da informação.
+  Desenvolvimento de estratégia de análise de dinâmica de proteínas baseada em geometria diferencial e teoria da informação
   """
 
 [[experience]]
@@ -54,7 +54,9 @@ date_format = "January 2006"
   location = "São Carlos, SP, Brasil"
   date_start = "2011-08-01"
   date_end = "2013-07-31"
-  description = """Protein expression, Crystallography and Structure determination by X-ray diffraction."""
+  description = """
+  Clonagem, expressão, caracterização bioquímica, cristalografia e determinação estrutura por difração de raios-X de proteínas
+  """
 
 [[experience]]
   title = "Iniciação científica"
@@ -64,7 +66,7 @@ date_format = "January 2006"
   date_start = "2011-08-01"
   date_end = "2013-07-31"
   description = """
-  Modelagem de proteínas e simulação de dinâmica molecular.
+  Modelagem de proteínas e simulação de dinâmica molecular
   """
 
 +++
